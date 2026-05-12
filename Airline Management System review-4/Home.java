@@ -17,9 +17,9 @@ public class Home extends JFrame implements ActionListener{
         add(image);
         
         // Label for heading with airline name
-        JLabel heading = new JLabel("AIR INDIA WELCOMES YOU");
+        JLabel heading = new JLabel("WELCOME TO SKYLINE AIRWAYS");
         heading.setBounds(500, 40, 1000, 40); // Positioning the heading text
-        heading.setForeground(Color.BLUE); // Set text color to blue
+        heading.setForeground(Color.RED); // Set text color to blue
         heading.setFont(new Font("Tahoma", Font.PLAIN, 36)); // Setting font size and style
         image.add(heading); // Adding the heading to the background image
         
